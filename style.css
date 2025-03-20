@@ -1,6 +1,8 @@
 body{
     
     background-color: azure;
+    overflow: hidden;
+    padding-inline: 60px;
 }
 .header{
     height: 100px;
@@ -10,49 +12,55 @@ body{
     justify-content: space-between;
 }
 .logo{
-    margin-left: 50px;
     font-size: 30px;
 }
 nav{
-    width: 20%;
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
+    font-size: 27px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+    color:rgb(55, 43, 226) ;
 }
 .theme .round_box{
     width: 80px;
     height: 28px;
     border: solid thin;
-    margin-right: 160px;
 }
 .main_body{
     height: 80vh;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .main_body h2{
     text-transform: uppercase;
     font-size: 18px;
 }
 .big_txt{
-    font-size: 120px;
+    font-size: 100px;
     font-weight: bold;
 }
-.main_body h3{
-    font-size: 25px;
-}
 .right{
-    flex: 1;
-    margin-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .right span{
-    font-size: 30px;
+    font-size: 23px;
     margin: 20px 0px;
 }
+.btns_box{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
 .btns_box span{
-    margin: 30px;
     font-size: 25px;
     color:  rgb(55, 43, 226);
     text-decoration: underline;
@@ -65,13 +73,22 @@ nav{
     color: white;
     text-decoration: none;
 }
+.btns_box span:hover{
+    padding: 15px 30px;
+    border-radius: 7px;
+    background-color: rgb(55, 43, 226);
+    color: white;
+    text-decoration: none;
+
+}
 .small_txts{
-    margin-top: 50px;
     display: flex;
     gap: 40px;
 }
+.small_txts span{
+    font-size: 22px;
+}
 .left{
-    flex: 1;
     display: flex;
     align-items: center;
 }
