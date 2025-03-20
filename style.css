@@ -1,0 +1,77 @@
+body{
+    
+    background-color: azure;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 50px;
+    font-size: 30px;
+}
+nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.theme .round_box{
+    width: 80px;
+    height: 28px;
+    border: solid thin;
+    margin-right: 160px;
+}
+.main_body{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+.main_body h2{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.big_txt{
+    font-size: 120px;
+    font-weight: bold;
+}
+.main_body h3{
+    font-size: 25px;
+}
+.right{
+    flex: 1;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right span{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+.btns_box span{
+    margin: 30px;
+    font-size: 25px;
+    color:  rgb(55, 43, 226);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.btns_box .btn{
+    padding: 15px 30px;
+    border-radius: 7px;
+    background-color: rgb(55, 43, 226);
+    color: white;
+    text-decoration: none;
+}
+.small_txts{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+.left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
