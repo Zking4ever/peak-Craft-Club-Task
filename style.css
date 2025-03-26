@@ -65,7 +65,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
 }
-.right span{
+.span1{
     font-size: 23px;
     margin: 20px 0px;
 }
@@ -83,7 +83,7 @@ nav a:hover{
 }
 .btns_box .btn{
     padding: 15px 30px;
-    border-radius: 7px;
+    border-radius: 10px;
     background-color: rgb(55, 43, 226);
     color: white;
     text-decoration: none;
@@ -108,3 +108,59 @@ nav a:hover{
     display: flex;
     align-items: center;
 }
+@media (max-width:760px)  {
+    body{
+        padding-inline: 10px;
+        height: 100vh;
+        overflow: visible;
+    }
+    nav,.theme{
+        display: none;
+    }
+   .main_body{
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 50px;
+   } 
+   .right{
+    width: 100%;
+   }
+   .big_txt{
+    font-size: 50px;
+   }
+   .left{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 30px;
+   }
+   .left img{
+    width: 300px;
+    display: inline;
+   }
+   .span1 {
+    font-size: 20px;
+    margin: 20px 0px;
+    color: grey;
+}
+.btns_box{
+    gap: 20px;
+}
+.btns_box .btn{
+    padding: 20px 30px;
+    font-size: 23px;
+    margin-top: 20px;
+}
+.small_txts{
+    justify-content: space-between;
+}
+.small_txts svg{
+    margin: 0px;
+    transform: translateY(20px)
+}
+.small_txts span{
+    font-size: 17px;
+}
+} 
