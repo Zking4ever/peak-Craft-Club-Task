@@ -100,7 +100,7 @@ nav a:hover{
     margin-top: 40px;
 }
 .small_txts svg{
-    transform: translateY(10px);
+    transform: translateY(20px);
     margin-left: 30px;
 }
 
@@ -121,7 +121,7 @@ nav a:hover{
     width: 100%;
     flex-direction: column-reverse;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
    } 
    .right{
     width: 100%;
@@ -158,7 +158,6 @@ nav a:hover{
 }
 .small_txts svg{
     margin: 0px;
-    transform: translateY(20px)
 }
 .small_txts span{
     font-size: 17px;
