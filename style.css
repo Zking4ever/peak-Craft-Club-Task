@@ -24,9 +24,10 @@ nav a{
     text-decoration: none;
     color: black;
     transition: all 0.5s ease;
+    border-bottom:  0px solid;
 }
 nav a:hover{
-    text-decoration: underline;
+    border-bottom: 3px solid;
     color:rgb(55, 43, 226) ;
     font-weight: bold;
 }
@@ -79,20 +80,21 @@ nav a:hover{
     text-decoration: none;
 }
 .btns_box span:hover{
-    padding: 15px 30px;
-    border-radius: 7px;
-    background-color: rgb(55, 43, 226);
-    color: white;
-    text-decoration: none;
-
+    cursor: pointer;
 }
 .small_txts{
     display: flex;
-    gap: 40px;
+    align-items: center;
 }
 .small_txts span{
     font-size: 22px;
+    margin-top: 40px;
 }
+.small_txts svg{
+    transform: translateY(10px);
+    margin-left: 30px;
+}
+
 .left{
     display: flex;
     align-items: center;
